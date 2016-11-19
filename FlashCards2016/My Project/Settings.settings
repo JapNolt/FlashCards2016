@@ -1,7 +1,15 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" UseMySettingsClassName="true">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="Letters" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z</Value>
+    </Setting>
+    <Setting Name="Misc" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ck,ch,sh</Value>
+    </Setting>
+    <Setting Name="ProgressTrackerFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ProgressTracker.txt</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

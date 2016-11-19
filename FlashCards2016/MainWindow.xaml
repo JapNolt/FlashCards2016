@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FlashCards2016"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="800" Width="1200" Closed="Window_Closed" Loaded="Window_Loaded" >
+    <DockPanel>
+        <Button  Name="ChangeCard">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock  Name="LetterBox" 
+                            HorizontalAlignment="Center" 
+                            VerticalAlignment="Center" 
+                            Text="Click to start" 
+                            TextBlock.FontWeight="Normal" 
+                            TextBlock.FontSize="300" 
+                            TextWrapping="Wrap" 
+                            TextBlock.FontFamily="Comic Sans MS" />
+            </StackPanel>
+        </Button>
+    </DockPanel>
 </Window>
